@@ -6,6 +6,7 @@ class Book {
 	static belongsTo = [author: Author]
 	
 	static constraints = {
+		title blank: false
 	}
 	
 	String toString(){

@@ -10,4 +10,8 @@ class Author {
 
 	static constraints = {
 	}
+	
+	String toString(){
+		"${name} ${surname}"
+	}
 }
